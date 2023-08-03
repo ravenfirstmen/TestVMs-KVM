@@ -5,7 +5,7 @@ build {
     "source.libvirt.plain"
   ]
 
-  provisioner "shell" { 
+  provisioner "shell" {
     inline = [
       "/usr/bin/cloud-init status --wait",
     ]
@@ -18,7 +18,7 @@ build {
   }
 
   provisioner "shell" {
-    scripts = [ "./files/packages/00-install-utils.sh" ]
+    scripts = ["./files/packages/00-install-utils.sh"]
   }
 
   provisioner "shell" {
