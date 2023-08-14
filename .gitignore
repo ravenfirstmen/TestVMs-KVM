@@ -1,3 +1,5 @@
+azure/**
+steps.txt
 Packer/key-packer
 Packer/key-packer.pub
 Packer/manifest.json
